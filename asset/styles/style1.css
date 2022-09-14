@@ -86,3 +86,7 @@ dd {
 .fz-20 {
     font-size: 20px;
 }
+
+.dark {
+    text-decoration: none;
+}
