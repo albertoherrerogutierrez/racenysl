@@ -33,30 +33,29 @@
  right: 10%;
  }
 .titulo h2 {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .contenido {
    position: relative;
    left: 400px;
-   bottom: 100px;
+   bottom: 180px;
    margin: 20px;
+   width: 700px;
 }
 
-.contenido div {
-    margin: 20px;
-    font-size: 18px;
-    font-weight: 525;
+.contenido h2 {
+    font-size: 34px;
+    margin-top: 30px;
 }
-
 .navegacion ul{
  list-style-type: none;
- margin: 20px;
+ margin: 50px 20px;
 }
 
 .navegacion li {
     margin: 5px;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 900;
 }
 
@@ -68,7 +67,6 @@ a:hover {
     text-decoration: none;
 }
 
-/*Utilidades*/
 
 dt {
     font-size: 20px;
@@ -76,5 +74,15 @@ dt {
 dd {
     margin-bottom: 1rem;
     margin-left: 20px;
+    font-size: 20px;
+}
+
+/*Utilidades*/
+
+.fz-34 {
+    font-size: 34px;
+}
+
+.fz-20 {
     font-size: 20px;
 }
