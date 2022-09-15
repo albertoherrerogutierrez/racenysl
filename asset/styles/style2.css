@@ -15,32 +15,57 @@ body {
 }
 
 .logo {
- width: 150px;
-  }
+    width: 175px;
+    height: 175px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
 
  .titulo {
     background-color: rgb(43, 93, 241);
-    margin: 0 0 50px 0;
     text-align: center;
     border: 3px solid black;
- }
+}
 
 .titulo h2 {
     font-size: 45px;
     margin: 0;
 }
 
-.contenido {
+.texto {
     display: flex;
-    width: 50vw;
-    justify-content: space-around;
-    
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    width: 60vw;
+    margin: 0;
 }
+
+.contenido-40vw {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between; 
+}
+
+.contenido-55vw {
+    display: flex;
+    width: 55vw;
+    justify-content: space-between; 
+}
+
+.contenido-80vw {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between; 
+}
+
 .contenido h2 {
     font-size: 34px;
     margin-top: 30px;
 }
-
+ .space-top {
+    margin-top: 50px;
+ }
 .navegacion {
     display: flex;
     justify-content: flex-end;
@@ -57,21 +82,15 @@ body {
 .navegacion a {
     color: white;
     text-decoration: none;
-    margin-left: 40px;
 }
 a:hover {
     color: black;
     text-decoration: none;
 }
 
-dt {
-    font-size: 20px;
-}
-
 dd {
     margin-bottom: 1rem;
     margin-left: 20px;
-    font-size: 20px;
 }
 
 /*Utilidades*/
@@ -84,11 +103,14 @@ dd {
     font-size: 20px;
 }
 
-.fz-45 {
-    font-size: 45px;
+.fz-40 {
+    font-size: 40px;
 }
 
-.apoyo h1 {
+.fz-25 {
+    font-size: 25px;
+}
+.apoyo h1, h2, p {
     margin: 0;
 }
 
