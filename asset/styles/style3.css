@@ -1,0 +1,56 @@
+html {
+    font-size: 62.5%;
+    font-family: "Audiowide";
+}
+
+* {
+    margin: 0;
+}
+
+.parallax {
+    background-image: url("../media/img/AlternativeImage.jpg");
+    height: 100vh;
+    min-height: 50rem;
+    /*parallax scroling effect*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.border{
+    background-color: #111;
+    color: #fff;
+    padding: 1.8rem;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+}
+.contenedor {
+    padding: 5rem;
+    background-color: red;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.next span {
+    text-align: center;
+}
+.logo {
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: #111;
+}
+
+/*Utilidades*/
+
+.fz-20 {
+    font-size: 2rem;
+}
+
+.fz-40 {
+    font-size: 4rem;
+}
