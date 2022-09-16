@@ -1,6 +1,8 @@
-
+html {
+    font-size: 62.5%; /* Reset para REMS - 62.5% = 10px de 16px, por defecto el font-size en html son 16px que es un REM. Haciendo este reset conseguimos que por cada REM sean 10px y de esta manera es mucho más fácil hacer la adaptación de px a rems. Ej: 18px; = 1.8rem; */
+}
 body {
-    margin: 0 70px;
+    margin: 0 7rem;
 }
 body nav {
     margin: 0;
@@ -16,24 +18,24 @@ body nav {
     background-size: cover;
     margin: 0;
     height: 100vh;
-    min-height: 400px;
+    min-height: 40rem;
 }
 
 .logo {
-    width: 175px;
-    height: 175px;
-    margin-right: 150px;
-    margin-top: 50px;
+    width: 17.5rem;
+    height: 17.5rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
 }
 
  .titulo {
     background-color: rgb(43, 93, 241);
     text-align: center;
-    border: 3px solid black;
+    border: 0.3rem solid black;
 }
 
 .titulo h2 {
-    font-size: 45px;
+    font-size: 4.5rem;
     margin: 0;
 }
 
@@ -65,12 +67,12 @@ body nav {
 }
 
 .contenido h2 {
-    font-size: 34px;
-    margin-top: 30px;
+    font-size: 3.4rem;
+    margin-top: 3rem;
 }
 
 .space-top {
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .align {
@@ -82,12 +84,13 @@ body nav {
     justify-content: flex-end;
     list-style-type: none;
     margin: 0;
+    transform: translateY(50%);
 }
 
 .navegacion li {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 500;
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 
 .navegacion a {
@@ -100,26 +103,26 @@ a:hover {
 }
 
 dd {
-    margin-bottom: 1rem;
-    margin-left: 20px;
+    margin-bottom: 0.1rem;
+    margin-left: 2rem;
 }
 
 /*Utilidades*/
 
 .fz-34 {
-    font-size: 34px;
+    font-size: 3.4rem;
 }
 
 .fz-20 {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .fz-40 {
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .fz-25 {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 .apoyo h1, h2, p {
     margin: 0;
@@ -132,8 +135,8 @@ dd {
 
 .boton {
     display: inline-block;
-    padding: 10px 30px;
-    border: 2px solid blue;
+    padding: 1rem 3rem;
+    border: 0.2rem solid blue;
     text-align: center;
 }
 
