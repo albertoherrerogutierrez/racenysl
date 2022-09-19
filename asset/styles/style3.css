@@ -1,10 +1,15 @@
 html {
     font-size: 62.5%;
     font-family: "Audiowide";
+    color: #fcda05;
 }
 
 * {
     margin: 0;
+}
+
+h3 {
+    margin: 1rem;
 }
 
 .parallax {
@@ -24,29 +29,49 @@ html {
     height: fit-content;
  }
 .border{
-    color: #fff;
+    color: #fcda05;
     padding: 1.8rem;
     font-size: 2.5rem;
     letter-spacing: 1rem;
 }
-.contenedor {
-    padding: 5rem 8rem 8rem 8rem;
-    background-color: fff;
-    text-align: center;
+
+.titulo {
+    border: 0.3rem solid #fcda05;
+    border-radius: 2rem;
+    margin: 3rem 3rem 5rem 3rem;
 }
 
-.contenedor h3 {
+.contenedor {
+    padding: 5rem 8rem 8rem 8rem;
+    background-color: #222831;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-1 {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    border: 0.3rem solid #fcda05;
+    border-radius: 2rem;
+   
+}
+
+.contenedor h4 {
     display: flex;
     justify-content: center;
     margin: 3rem;
 }
+
 .columnas {
     display: flex;
     justify-content: space-around;
+    width: 100vw;
 }
 
 .next {
-    background-color: #111;
+    background-color: #222831;
     display: flex;
     justify-content: center;
     align-items: center;
