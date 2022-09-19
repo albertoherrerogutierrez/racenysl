@@ -16,34 +16,49 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+ .parallax div {
+    height: fit-content;
+ }
 .border{
-    background-color: #111;
     color: #fff;
     padding: 1.8rem;
     font-size: 2.5rem;
     letter-spacing: 1rem;
 }
 .contenedor {
-    padding: 5rem;
-    background-color: red;
+    padding: 5rem 8rem 8rem 8rem;
+    background-color: fff;
+    text-align: center;
+}
+
+.contenedor h3 {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.columnas {
+    display: flex;
+    justify-content: space-around;
 }
 
 .next {
+    background-color: #111;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    width: fit-content;
+    border-radius: 2rem;
 }
 
-.next span {
-    text-align: center;
-}
 .logo {
     width: 10rem;
     border-radius: 2rem;
-    background-color: #111;
 }
+
 
 /*Utilidades*/
 
