@@ -2,6 +2,7 @@ html {
     font-size: 62.5%;
     font-family: "Audiowide";
     color: #fcda05;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -12,6 +13,26 @@ h3 {
     margin: 1rem;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 2rem;
+    background-color: #222831;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fcda05;
+}
+
+a:hover {
+    color: #ff4800;
+}
+
+.navbar li {
+    display: inline-block;
+ }
 .parallax {
     background-image: url("../media/img/AlternativeImage.jpg");
     height: 100vh;
@@ -25,9 +46,11 @@ h3 {
     justify-content: center;
     align-items: center;
 }
- .parallax div {
+
+.parallax div {
     height: fit-content;
  }
+ 
 .border{
     color: #fcda05;
     padding: 1.8rem;
@@ -67,7 +90,7 @@ h3 {
 .columnas {
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 95vw;
 }
 
 .next {
